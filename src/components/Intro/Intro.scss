@@ -5,16 +5,21 @@
     margin: 0 auto;
     overflow: hidden;
     width: 100vw;
+
+    // background-image:url('../../assets/seven.jpg');
+    background-size: cover;  // Optional: Adjust to your preference
+    // background-position: center; 
 }
 .bg
 {
     position: absolute;
     height:50vh;
-    width: 20%;
+    width: 30%;
     top: 1rem;
     z-index: -1;
     right: 5rem;
-
+    // background-image: url('../../assets/me.jpg');
+    // position: relative;
     object-fit: cover;
     border-radius: 50%;
     // background-color: red;
@@ -55,4 +60,25 @@
 }
 .btn:hover{
     background-color: white;
+}
+.introPara{
+    font-weight: 100;
+}
+@media (max-width:850px) {
+    .bg{
+        height:40vh;
+        width: 35%;
+    }
+}
+@media (max-width:650px) {
+    .bg{
+        height:35vh;
+        width: 35%;
+    }
+}
+@media (max-width:450px) {
+    .bg{
+        height:35vh;
+        width: 35%;
+    }
 }

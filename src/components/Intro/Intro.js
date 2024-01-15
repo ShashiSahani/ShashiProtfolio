@@ -9,13 +9,13 @@ function Intro() {
   return (
     <section className="intro">
       <div className="introContent">
-        <span className="hello">Hello</span>
+        <span className="hello">Hello,</span>
         <span className="introText">
           I'm <span className="introName">Shashi</span>
           <br />
           Front End Developer
         </span>
-        <p className="introPara">Import React from 'react'</p>
+        <p className="introPara">I'm a skilled and passianate web designer with <br/> experience in creating ,visually appealing and user-friendly website</p>
         <Link to="hireMeSection" smooth={true} duration={500}>
           <button className="btn">
             Hire Me
